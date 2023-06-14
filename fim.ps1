@@ -1,4 +1,4 @@
-﻿
+
 Write-Host ""
 Write-Host "what would you like to do ?"
 Write-Host  " A) Collecte new baseline."
@@ -12,7 +12,7 @@ Function Calcule-File-Hash($filepath){
     return $filehash 
 }
 
-$target = "C:\Users\Mouhssine\Desktop\Cyber\projects\FIM"
+$target = "your target folder's path here !"                                      # change this
 
 if ( $response.ToUpper() -eq "A" ){
     # delete baseline.txt if it's already exist
